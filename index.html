@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <nav class="navbar" style="background-color: #2398468b;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="launcher.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top mx-3">
+        <span>Arimart</span>
+      </a>
+      <button class="btn btn-primary my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight" style="background-color: grey; border-color: grey;">More Info</button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasRightLabel">Arimart</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="list-group">
+            <a  class="list-group-item list-group-item-action" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="font-weight: bold;">Our Company</a>
+            <a data-bs-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample" class="list-group-item list-group-item-action" style="font-weight: bold;">Media Assets</a>
+            <a data-bs-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample" class="list-group-item list-group-item-action" style="font-weight: bold;">Contact Us</a>
+            <a data-bs-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample" class="list-group-item list-group-item-action" style="font-weight: bold;">App Link</a>
+            
+          </div>
+          <div class="collapse mt-2" id="collapseExample">
+            <div class="card card-body" style="color: green; font-weight: bold;">
+              Arimart offers an interactive and fun 'virtual shopping experience'  to our Users. Where you can shop together, chat together on our app   virtually  with your friends and family like we do in offline together shopping and  can enjoy more saving, more fun and interactive shopping experience  online also .
+            </div>
+          </div>
+          <div class="collapse mt-2" id="collapseExample2">
+            <div class="card card-body" style="color: green; font-weight: bold;">
+              customersupport@arimart.in
+            </div>
+          </div>
+          <div class="collapse mt-2" id="collapseExample3">
+            <div class="card card-body" style="color: green; font-weight: bold;">
+              +91 9341110535/+91 8092495201
+            </div>
+          </div>
+          <div class="collapse mt-2" id="collapseExample4">
+            <div class="card card-body">
+              <a href="#" class="btn btn-success" download="https://play.google.com/store/apps/details?id=com.app.arimart">Download</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card text-center my-5 mx-5 mb-4 border-0">
+    <div class="card-body">
+      <img src="ARIMART final logo.jpeg" alt="Logo" width="600" height="200"
+        class="d-inline-block align-text-top mx-3 my-5">
+      
+      <p class="my-4" style="text-align: justify; font-size: 20px;">In an era of digital transformation, the convergence of technology and daily necessities has given rise to the flourishing world of online platforms. As I embark on the exciting journey of making (<span style="color: green; font-weight: bold;">ARIMART</span>) for online shopping app where vegetable  and grocery are primary product , our mission is to revolutionize the way people shop for fresh produce and essential groceries, and the profound impact it can have on both customers and local suppliers. To provide a seamless end-to-end experience, an efficient delivery system will be established. Collaborating with reputable delivery partners will ensure timely and reliable services, while strategic planning will optimize routes and minimize delivery times. The focus will be on delivering freshness directly to customers' doorsteps, enhancing their overall satisfaction.</p>
+    </div>
+  </div>
+  <p class="my-5"></p>
+
+  <hr>
+  <h4 class="text-center">Our Products</h4>
+
+    <div id="carouselExampleCaptions" class="carousel carousel-dark slide mx-5 px_length">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="login.png" class="d-block w-100" alt="..." style="width:400px;height:600px">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Vegetables</h3>
+            <p>Fresh Vegetables in affordable prices.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="otp.png" class="d-block w-100" alt="..." style="width:400px;height:600px">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Fruits</h3>
+            <p>Fruits Vegetables in affordable prices.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="farmer.png" class="d-block w-100" alt="..." style="width:400px;height:600px">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Farmers</h3>
+            <p>From Farmers to you.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <hr>
+  
+
+
+
+  <h4 class="text-center my-5">Our Principles</h4>
+
+  <p class="d-inline-flex gap-1">
+    <a class="" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+      <div id="carouselExampleCaptions" class="carousel carousel-dark slide mx-5">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="veg.jpg" class="d-block w-100 card card-body" alt="..." style="height:400px">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 style="color: white;">Benefits</h3> 
+              <div class="collapse mx-3 mt-2" id="collapseExample">
+                <div style="color: white; font-size: 20px; font-weight: bold; text-align: justify;">
+                  Freshness delivered to your doorstep! Experience the convenience of shopping for farm-fresh vegetables and groceries from the comfort of your home. Welcome to our ARIMART  where quality and convenience meet!"
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </p>
+  
+  <div class="card my-5 mx-5" style="max-width: 1252px;" >
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="peo1.jpg" class="img-fluid rounded-start" alt="..." >
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h3 class="card-title" style="color: green;">Peoples</h3>
+          <br>
+          <br>
+          <p class="card-text" style="font-size: 20px; color: green; text-align: justify;">From farm to fork, we ensure the finest produce reaches your table. Our <span style=" font-weight: bold;">ARIMART</span> is more than just a grocery store; it's a commitment to sustainable sourcing and supporting local farmers. Together, let's cultivate a greener future!". Your farm-fresh haven awaits! Dive into our virtual aisles and explore the abundance of nature's treasures. Discover the magic of shopping fresh, anytime, anywhere."</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <p class="d-inline-flex gap-1">
+    <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+      <div id="carouselExampleCaptions" class="carousel carousel-dark slide mx-5">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="more1.jpg" class="d-block w-100 card card-body" alt="..." style="height:400px">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 style="color: white;">Vision</h3>
+              <div class="collapse mx-3" id="collapseExample2">
+                <div style="color: white; font-size: 20px; font-weight: bold; text-align: justify;">
+                 This endeavor goes beyond merely setting up a virtual marketplace; it represents a commitment to nurturing healthier lifestyles, supporting local communities, and embracing the wonders of technology. By providing customers with access to fresh, nutritious produce and simplifying the shopping experience, we hope to make a meaningful difference in the lives of individuals and the communities we serve. Together, let us sow the seeds of positive change and cultivate a future where convenience and conscious consumption thrive hand in hand.
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </p>
+  
+  
+
+  <hr>
+
+  <h3 class="text-center my-5">Our Values</h3>
+
+  <p class="d-inline-flex gap-1">
+    <a class="" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+      <div id="carouselExampleCaptions" class="carousel carousel-dark slide mx-5">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Girl.jpeg" class="d-block w-100 card card-body" alt="..." style="height:550px">
+            <div class="carousel-caption d-none d-md-block">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+  </p>
+  <div class="mx-5">
+    <h5 style="text-align: justify;">Arimart offers an interactive and fun 'virtual shopping experience'  to our Users. Where you can shop together, chat together on our app   virtually  with your friends and family like we do in offline together shopping and  can enjoy more saving, more fun and interactive shopping experience  online also .</h5>
+
+    <ul>
+      <li>Consumers To Manufacturer</li>
+      <li>Agriculture Products</li>
+      <li>Fresh Vegetables and Fruits</li>
+      <li>On Day Deleivery</li>
+      <li>On Subsidize Cost</li>
+    </ul>
+
+    <p style="text-align: justify;">we (<span style="color: green; font-weight: bold;">ARIMART</span>) are trying to optimizing the supply chain system ,which is inefficient and multi-layered . After various round of price marked up across multiple intermediaries , Price of the products got quadrupled before it reach to the end consumers. ARIMART dedicate itself to promoting the efficiency of traditional agricultural supply chain in india . Farmers can now sell their produce In the Bulk ,but at the retail price, directly to the consumers through our ARIMART platform. By our Group aggregation model , ARIMART can help aggregate large volume of orders in shorter period of time ...Bypassing unnecessary layers of intermediaries , farmers benefits from significant increase in their income ,while consumers on our platform also enjoy cheaper and better quality ...Also we can significantly reduce the wastages of the products that is close to 40% (due to shorter life -span).</p>
+  </div>
+
+  <hr>
+
+  <div class="card-group mx-3 mb-4">
+    <div class="card">
+      
+      <div class="card-body">
+        <h5 class="card-title">App Link <img src="launcher.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top mx-3"></h5>
+        
+        <p class="card-text">Ready to revolutionize the way you unlock a world of possibilities with our app. Download now and unleash your potential. Join thousands of happy users and  Discover the power of simplicity. Download our app to experience in just a few taps!</p>
+        <a href="#" class="btn btn-success" download="https://play.google.com/store/apps/details?id=com.app.arimart">Download</a>
+        
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Social Media</h5>
+        <p class="card-text">Follow us on Social Media</p>
+        <a href="https://www.linkedin.com/in/arimart-technology-private-limited-9aa23b283" class="btn btn-success mt-2">Linkedin</a>
+        <a href="https://instagram.com/arimart_official_?igshid=MzRlODBiNWFlZA==" class="btn btn-success mt-2">Instagram</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Contact Us</h5>
+        <p class="card-text">Email:- customersupport@arimart.in</p>
+        <p class="card-text">Customer Care:- +91 9341110535</p>
+        <p class="card-text">Information:- +91 8092495201</p>
+        <p class="card-text">Head Office:- Satya sai building, Whitefield, Bangalore, Karnataka, 560066</p>
+        <p class="card-text">Local office:- Patliputra Industrial area, Patna, Bihar, 800013</p>
+        
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
